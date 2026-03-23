@@ -1,4 +1,4 @@
-package com.example.rewards;
+package com.demo.rewards;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

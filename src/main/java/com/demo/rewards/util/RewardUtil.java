@@ -1,16 +1,14 @@
-package com.example.rewards.util;
+package com.demo.rewards.util;
 
 public class RewardUtil {
     public static int calculatePoints(double amount) {
         int points = 0;
-
         if (amount > 100) {
             points += (amount - 100) * 2;
-            points += 50; // for 50–100
+            points += 50;
         } else if (amount > 50) {
             points += (amount - 50);
         }
-
         return points;
     }
 }
