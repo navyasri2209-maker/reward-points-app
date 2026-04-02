@@ -33,7 +33,7 @@ com.demo.rewards
 GET /api/rewards
 
 ### 2. Get Rewards by Customer ID
-GET /api/{customerId}
+GET /api/rewards/{customerId}
 
 ## Reward Calculation Logic
 
