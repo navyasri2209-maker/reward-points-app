@@ -1,6 +1,16 @@
 package com.demo.rewards.util;
 
+/**
+ * Utility class for reward calculation logic.
+ */
 public class RewardUtil {
+
+    /**
+     * Calculates reward points based on transaction amount.
+     *
+     * @param amount transaction amount
+     * @return calculated reward points
+     */
     public static int calculatePoints(double amount) {
         int points = 0;
         if (amount > 100) {
